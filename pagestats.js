@@ -32,6 +32,9 @@ jQuery(document).ready(function() {
         stats["js"] = $("script[src]");
         stats["js-count"] = $("script[src]").length;
 
+        stats["cookiesize"] = document.cookie.length;
+        stats["cookie-count"] = document.cookie.split(";").length;
+
         stats["css"] = document.styleSheets;
         stats["css-include-count"] = document.styleSheets.length;
         stats["css-rule-count"] = 0;

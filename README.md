@@ -11,9 +11,7 @@
 
 # OK, but what's this good for?
 
-This was written because of real world development environment constraints: with developers pushing out code 10x-50x a day, problems can slip through the cracks.
-
-Hence, an automated system which alerts the developers of broken image links, excessive number of DOM elements, long load times etc proves itself to be absolutely useful.
+This was written because of real world development environment constraints: with developers pushing out code 10x-50x a day, problems can slip through the cracks. Hence, an automated system which alerts the developers of broken image links, excessive number of DOM elements, long load times etc proves itself to be absolutely useful.
 
 ````pagestats.js```` does this.
 
@@ -26,7 +24,7 @@ Note: `pagestats.js` uses jQuery. It attempts to autoload jQuery from Google's s
 You need to include the Javascript file at the bottom of your HTML page (just before </body>):
 
 ````javascript
-<script src="http://localhost/pagestats/pagestats.js"></script>
+<script src="pagestats.js"></script>
 </body>
 ````
 
